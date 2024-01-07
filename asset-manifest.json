@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.46f27762.css",
+    "main.js": "/my-portfolio/static/js/main.39cfa81c.js",
+    "static/media/blogss.png": "/my-portfolio/static/media/blogss.0a9ecbcc438a45a8a559.png",
+    "static/media/social.png": "/my-portfolio/static/media/social.63daedef3ba7b44543cc.png",
+    "static/media/dhanam.png": "/my-portfolio/static/media/dhanam.f647b06591d5cfa67a81.png",
+    "static/media/booking.png": "/my-portfolio/static/media/booking.205b8b1f08f8eba9b5ba.png",
+    "static/media/fashion.png": "/my-portfolio/static/media/fashion.22cdef58cf7baf10b63f.png",
+    "static/media/ragul.png": "/my-portfolio/static/media/ragul.f7b4f2bb39667479d0d8.png",
+    "static/media/Ragul_photo.jpg": "/my-portfolio/static/media/Ragul_photo.b1feaa0242b7e9283edf.jpg",
+    "static/media/award.png": "/my-portfolio/static/media/award.a796a64fbb78cc3a9666.png",
+    "static/media/address.png": "/my-portfolio/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/my-portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/sun.png": "/my-portfolio/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/phone.png": "/my-portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
+    "static/media/moon.png": "/my-portfolio/static/media/moon.3bea3d398a25611d421b.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.46f27762.css.map": "/my-portfolio/static/css/main.46f27762.css.map",
+    "main.39cfa81c.js.map": "/my-portfolio/static/js/main.39cfa81c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46f27762.css",
+    "static/js/main.39cfa81c.js"
+  ]
+}
