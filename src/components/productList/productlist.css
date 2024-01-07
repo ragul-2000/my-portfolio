@@ -9,11 +9,13 @@
 
 .pl-texts{
     width: 65%;
+    
 }
 
 .pl-title{
     font-size: 50px;
     font-weight: 600;
+    color: #1f87b0;
 }
 
 .pl-desc{

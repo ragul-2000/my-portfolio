@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .a-left{
@@ -15,7 +16,8 @@
 }
 
 .a-right{
-    flex:1
+    flex:1;
+    padding: 20px;
 }
 
 .a-card{
@@ -47,6 +49,7 @@
 
 .a-title{
     font-weight: 400;
+    color: #1f87b0;
 }
 
 .a-sub{
@@ -72,9 +75,11 @@
     font-weight: bold;
     color: #555;
     margin-bottom: 10px;
+    
 }
 
 .tech{
+  
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +89,7 @@
 }
 
 .skills{
+  color: #1f87b0;
     font-size: 25px;
     font-weight: 500;
     margin: 20px 0px;
@@ -97,12 +103,14 @@
 .technical{
     font-weight: 400;
     font-size: 20px;
+    color: #1f87b0;
 }
 
 .v h3{
   font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
+  color: #1f87b0;
 }
 .v li{
     font-size: 18px;
@@ -115,6 +123,7 @@
      margin-bottom: 10px;
      font-size: 20px;
      font-weight: 400;
+     color: #1f87b0;
 }
 
 .tools li{
