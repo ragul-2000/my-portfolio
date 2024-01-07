@@ -1,0 +1,212 @@
+.a{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right{
+    flex:1
+}
+
+.a-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.a-card.bg{
+    background-color: #333;
+    position: absolute;
+    left: 70px;
+    border-radius: 50%;
+}
+.a-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.a-award-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.a-title{
+    font-weight: 400;
+}
+
+.a-sub{
+    margin: 20px 0px;
+}
+
+.a-desc{
+    font-weight: 300;
+}
+
+.a-award{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-award-texts{
+    width: 70%;
+}
+
+.a-award-title{
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.tech{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+   align-items: flex-start;
+   padding: 30px;
+}
+
+.skills{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.tech li{
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.technical{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.v h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.v li{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.tools h3{
+     margin-bottom: 10px;
+     font-size: 20px;
+     font-weight: 400;
+}
+
+.tools li{
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+@media screen and (max-width:480px) {
+    .a {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .a-left {
+      width: 100%;
+    }
+  
+    .a-card {
+      height: 30vh;
+    }
+  
+    .a-card.bg,
+    .a-award {
+      display: none;
+    }
+  
+    .a-right {
+      padding: 20px;
+      height: auto;
+    }
+  
+    .tech {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+      justify-content: start;
+      align-items: start;
+    }
+  
+    .skills {
+      font-size: 25px;
+      font-weight: 500;
+      margin: 20px 0px;
+      text-align: left;
+    }
+  
+    .tech li {
+      margin-right: 30px;
+      font-size: 18px;
+    }
+  
+    .technical {
+      font-weight: 400;
+      font-size: 20px;
+      text-align: left;
+    }
+  
+    .v h3 {
+      font-size: 20px;
+      font-weight: 400;
+      text-align: left;
+    }
+  
+    .v li {
+      width: 100%;
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      text-align: left;
+      margin-right: 30px;
+      
+    }
+  
+    .tools h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: left;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+    }
+  
+    .tools li {
+
+      font-size: 18px;
+      margin-left: 10px;
+      text-align: left;
+    }
+  }
+  
