@@ -17,19 +17,40 @@ const Contact = () => {
   const [done,setDone] = useState(false);
   const theme = useContext(ThemeContext)
   const darkMode = theme.state.darkMode;
+  const [formData, setFormData] = useState({
+    user_name: "",
+    user_subject: "",
+    user_email: "",
+    message: "",
+  });
+  
 
 
   const handleSubmit = (e) =>{
        e.preventDefault();
-       emailjs.sendForm('service_0pa5h5k', 'template_rqlnr9p', formRef.current, 'DqToTsCK3Y-mfJEyU')
+       const formElement = formRef.current; 
+       emailjs.sendForm('service_0pa5h5k', 'template_rqlnr9p', formElement, 'DqToTsCK3Y-mfJEyU')
       .then((result) => {
           setDone(true)
           console.log(result.text);
-      }, (error) => {
+          formElement.reset();
+          setFormData({
+            user_name: "",
+            user_subject: "",
+            user_email: "",
+            message: "",
+          });
+          console.log("Form data cleared");
+      })
+      .catch((error) => {
           console.log(error.text);
       });
 
-  }
+  };
+  const handleChange = (e) => {
+    // Update the form data as the user types
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
   return (
 
     <div className="c">
@@ -61,12 +82,12 @@ const Contact = () => {
             freelancing if the right project comes along. me.
           </p>
           <form ref = {formRef} onSubmit={handleSubmit}>
-            <input style = {{backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name"/>
-            <input style = {{backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject"/>
-            <input style = {{backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email"/>
-            <textarea style = {{backgroundColor: darkMode && "#333"}} id="" cols="30" rows="5" placeholder="Message" name="message"/>
+            <input style = {{backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name"  onChange={handleChange}/>
+            <input style = {{backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject"  onChange={handleChange}/>
+            <input style = {{backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email"  onChange={handleChange}/>
+            <textarea style = {{backgroundColor: darkMode && "#333"}} id="" cols="30" rows="5" placeholder="Message" name="message"  onChange={handleChange}/>
             <button>Submit</button>
-           <div style = {{color: darkMode && "red" }} className="submitted">{done && "Your Response Was Submitted..."}</div>
+           <div style = {{color: darkMode && "#1f87b0" }} className="submitted">{done && "Your Response Was Submitted..."}</div>
           </form>
           <div className="footer">
                 <hr className="hr"/>

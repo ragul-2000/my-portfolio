@@ -107,7 +107,7 @@ button{
 .submitted{
     margin-top: 10px;
     margin-left: 40px;
-    color: #166a13;
+    color: #1f87b0;
     width: max-content;
     font-size: 20px;
     font-weight: bold;
@@ -129,6 +129,7 @@ a {
     margin: 0 auto;
     position: relative;
     top: 40px;
+    background-color: rgb(6, 36, 63);
   }
   
 @media screen and (max-width:480px){
@@ -159,6 +160,8 @@ a {
         margin-top: 0px;
         display: flex;
         flex-wrap: wrap;
+        margin-right: 20px;
+        font-size: 20px;
     }
 
     button{
@@ -170,6 +173,11 @@ a {
         width: 100%;
         margin-bottom: 30px
 
+    }
+
+    .submitted{
+        margin-top: 20px;
+        font-size: 15px;
     }
 
 }
