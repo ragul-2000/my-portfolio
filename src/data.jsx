@@ -7,12 +7,12 @@ export const products = [
     {
       id: 1,
       img: Booking,
-      link: "https://github.com/ragul-2000/Booking",
+      link: "https://65a53343fbeb880bba849ac5--remarkable-faloodeh-336040.netlify.app/",
     },
     {
       id: 2,
       img: Social,
-      link: "https://github.com/ragul-2000/Social_App",
+      link: "https://ragul-2000.github.io/Social_App/",
     },
     {
       id: 3,
