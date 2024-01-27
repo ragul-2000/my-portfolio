@@ -8,7 +8,7 @@ export const products = [
     {
       id: 1,
       img: Ecommerce,
-      link: "https://aquamarine-hamster-e08c5e.netlify.app/",
+      link: "https://65b4c905cdadaf75ebc729af--aquamarine-bubblegum-d71d46.netlify.app/",
     },
     {
       id: 2,
