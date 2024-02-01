@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.94a4f9c4.css",
-    "main.js": "/my-portfolio/static/js/main.8ba2ec0f.js",
+    "main.js": "/my-portfolio/static/js/main.993d5ca2.js",
     "static/media/blogss.png": "/my-portfolio/static/media/blogss.0a9ecbcc438a45a8a559.png",
     "static/media/social.png": "/my-portfolio/static/media/social.63daedef3ba7b44543cc.png",
-    "static/media/dhanam.png": "/my-portfolio/static/media/dhanam.f647b06591d5cfa67a81.png",
     "static/media/ecommerce.png": "/my-portfolio/static/media/ecommerce.8fbceb21c437bb9ce786.png",
     "static/media/booking.png": "/my-portfolio/static/media/booking.205b8b1f08f8eba9b5ba.png",
     "static/media/ragul.png": "/my-portfolio/static/media/ragul.804f5589935a6dc9858c.png",
+    "static/media/dhanam.png": "/my-portfolio/static/media/dhanam.d9924314025ece966572.png",
     "static/media/fashion.png": "/my-portfolio/static/media/fashion.22cdef58cf7baf10b63f.png",
     "static/media/Ragul_photo.jpg": "/my-portfolio/static/media/Ragul_photo.b1feaa0242b7e9283edf.jpg",
     "static/media/award.png": "/my-portfolio/static/media/award.a796a64fbb78cc3a9666.png",
@@ -18,10 +18,10 @@
     "static/media/moon.png": "/my-portfolio/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/my-portfolio/index.html",
     "main.94a4f9c4.css.map": "/my-portfolio/static/css/main.94a4f9c4.css.map",
-    "main.8ba2ec0f.js.map": "/my-portfolio/static/js/main.8ba2ec0f.js.map"
+    "main.993d5ca2.js.map": "/my-portfolio/static/js/main.993d5ca2.js.map"
   },
   "entrypoints": [
     "static/css/main.94a4f9c4.css",
-    "static/js/main.8ba2ec0f.js"
+    "static/js/main.993d5ca2.js"
   ]
 }
