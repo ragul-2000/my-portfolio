@@ -8,12 +8,12 @@ const ProductList = () => {
      <div className="pl-texts">
         <h1 className="pl-title">Web Portfolio Highlights</h1>
         <p className="pl-desc">
-        Immerse yourself in a showcase of my web development expertise, 
-        unveiling projects marked by innovation and user-focused functionality. 
-        From a refined booking application to a dynamic social media platform, 
-        each site reflects my commitment to seamless digital experiences. 
-        These samples embody the professional precision and design finesse 
-        I bring to every web project, ensuring a harmonious blend of technology and user satisfaction.
+        Explore my web portfolio to witness a collection of innovative web development projects, showcasing my expertise. 
+        From a refined Fashion E-Commerce UI to a robust Hotels Booking App and dynamic Social Media platform, 
+        each project epitomizes my commitment to delivering seamless digital experiences. 
+        These samples encapsulate professional precision, emphasizing my design finesse 
+        and unwavering dedication to achieving a seamless balance between cutting-edge technology and user satisfaction. 
+        Immerse yourself in my showcase and discover the intersection of innovation and functionality in web development.
         </p>
       </div>
       <div className="pl-list">

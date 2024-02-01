@@ -50,6 +50,7 @@ const About = () => {
             <li>Visual Studio Code</li>
             <li>Apache Tomcat</li>
             <li>Microsoft Office</li>
+            <li>Eclipse IDE</li>
         </ul>
         </section>
         </div>
