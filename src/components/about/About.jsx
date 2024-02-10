@@ -26,6 +26,7 @@ const About = () => {
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React JS</li>
+            <li>Redux Toolkit</li>
             <li>Java</li>
             <li>jQuery</li>
             <li>PostgreSQL</li>

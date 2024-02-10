@@ -1,5 +1,5 @@
 import "./intro.css";
-import Me from "../../img/ragul.png"
+import Me from "../../img/ragul.jpg"
 
 import React from 'react'
 

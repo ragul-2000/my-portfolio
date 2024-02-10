@@ -1,5 +1,5 @@
 .c{
-    height: 100vh;
+    height: 95vh;
     position: relative;
 }
 
@@ -143,11 +143,13 @@ a {
         display: flex;
         flex-direction: column;
         padding: 0px 50px;
-      
     }
 
     .c-title{
-        font-size: 30px;
+        font-size: 20px;
+        width: 100%;
+        margin-top: 10px;
+
     }
 
     .c-info-item{
@@ -190,6 +192,14 @@ a {
         margin: 10px 0px;
         font-size: 14px;
         padding-left: 10px;
+    }
+    .c-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    }
+    .c-info-item{
+        font-size: 14px;
     }
 
 }
