@@ -110,6 +110,7 @@
     .intro{
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
     
     .i-name{
@@ -137,7 +138,7 @@
         
     }
     .i-right{
-       margin-top: -50px;
+       margin-top: -70px;
        margin-bottom: 20px;
     }
 }
